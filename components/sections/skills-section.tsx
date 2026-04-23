@@ -1,6 +1,7 @@
-import Image from "next/image";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import skills from "@/data/skills.json";
+import { skillIcons } from "@/lib/skill-icons";
 
 import { SectionContainer } from "./section-container";
 
@@ -44,14 +45,13 @@ export function SkillsSection() {
                   key={`${group.title}-${skill.name}`}
                   className="flex items-center gap-3 rounded-2xl border border-black/10 bg-white px-4 py-3"
                 >
-                  {skill.icon ? (
-                    <Image
-                      src={skill.icon}
-                      alt={`Icone de ${skill.name}`}
-                      width={36}
-                      height={36}
-                      className="h-9 w-9 rounded-lg object-contain"
-                    />
+                  {skill.icon && skill.icon in skillIcons ? (
+                    <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-black text-base text-white">
+                      <FontAwesomeIcon
+                        icon={skillIcons[skill.icon as keyof typeof skillIcons]}
+                        title={skill.name}
+                      />
+                    </span>
                   ) : (
                     <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-black text-xs font-semibold text-white">
                       {getSkillInitials(skill.name)}

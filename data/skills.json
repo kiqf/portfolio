@@ -4,19 +4,19 @@
     "items": [
       {
         "name": "HTML",
-        "icon": null
+        "icon": "html5"
       },
       {
         "name": "CSS",
-        "icon": null
+        "icon": "css3"
       },
       {
         "name": "JavaScript",
-        "icon": null
+        "icon": "javascript"
       },
       {
         "name": "TypeScript",
-        "icon": null
+        "icon": "typescript"
       }
     ]
   },
@@ -25,11 +25,11 @@
     "items": [
       {
         "name": "Node.js",
-        "icon": null
+        "icon": "node-js"
       },
       {
-        "name": "APIs REST",
-        "icon": null
+        "name": "PHP",
+        "icon": "php"
       }
     ]
   },
@@ -38,11 +38,11 @@
     "items": [
       {
         "name": "Next.js",
-        "icon": null
+        "icon": "file-code"
       },
       {
         "name": "React",
-        "icon": null
+        "icon": "react"
       }
     ]
   },
@@ -51,11 +51,15 @@
     "items": [
       {
         "name": "Tailwind CSS",
-        "icon": null
+        "icon": "tailwind"
       },
       {
-        "name": "Styled Components",
-        "icon": null
+        "name": "Bootstrap",
+        "icon": "bootstrap"
+      },
+      {
+        "name": "Git",
+        "icon": "git"
       }
     ]
   }

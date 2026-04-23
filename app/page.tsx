@@ -1,11 +1,5 @@
 import { Navbar } from "@/components/layout/navigation";
-import {
-  AboutSection,
-  ContactSection,
-  HeroSection,
-  ProjectsSection,
-  SkillsSection,
-} from "@/components/sections";
+import { HeroSection, SkillsSection } from "@/components/sections";
 
 export default function Home() {
   return (
@@ -14,7 +8,6 @@ export default function Home() {
 
       <div className="mx-auto flex w-full max-w-5xl flex-col gap-12 px-6 py-12">
         <HeroSection />
-
       </div>
     </main>
   );
