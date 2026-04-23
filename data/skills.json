@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Frontend",
+    "items": [
+      {
+        "name": "HTML",
+        "icon": null
+      },
+      {
+        "name": "CSS",
+        "icon": null
+      },
+      {
+        "name": "JavaScript",
+        "icon": null
+      },
+      {
+        "name": "TypeScript",
+        "icon": null
+      }
+    ]
+  },
+  {
+    "title": "Backend",
+    "items": [
+      {
+        "name": "Node.js",
+        "icon": null
+      },
+      {
+        "name": "APIs REST",
+        "icon": null
+      }
+    ]
+  },
+  {
+    "title": "Frameworks",
+    "items": [
+      {
+        "name": "Next.js",
+        "icon": null
+      },
+      {
+        "name": "React",
+        "icon": null
+      }
+    ]
+  },
+  {
+    "title": "Bibliotecas",
+    "items": [
+      {
+        "name": "Tailwind CSS",
+        "icon": null
+      },
+      {
+        "name": "Styled Components",
+        "icon": null
+      }
+    ]
+  }
+]
