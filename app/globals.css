@@ -1,14 +1,19 @@
+@config "../tailwind.config.ts";
 @import "tailwindcss";
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: sans-serif;
-}
 
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  background: #101415;
+  color: #e0e3e5;
+}
+
+.code-tag {
+  font-family: "JetBrains Mono", monospace;
+  color: #adc6ff;
+  opacity: 0.6;
+  font-size: 14px;
+  letter-spacing: 0.1em;
 }
